@@ -21,3 +21,7 @@ print(marks.items())
 # dict_items([('history', 65), ('chemistry', 78), ('science', 86), ('english', 92), ('maths', 100)])
 
 result = marks.items()
+print(result)
+
+result = marks.items()
+print(result)
