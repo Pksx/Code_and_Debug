@@ -1,0 +1,47 @@
+class StudentDetails:
+    # Magic/Dunder Method
+    def __init__(self) -> None:
+        self.idd = int(input("Enter ID = "))
+        self.name = input("Enter Name = ")
+        self.age = int(input("Enter Age = "))
+        self.gender = input("Enter Gender = ")
+        self.address = "Surat"
+
+    # Methods
+    def updateNAme(self, new_name: str) -> None:
+        self.name = new_name
+
+    def display(self):
+        # print(self)
+        print(f"idd={self.idd}")
+        print(f"Name={self.name}")
+        print(f"Age={self.age}")
+        print(f"Gender={self.gender}")
+        print(f"Address={self.address}")
+
+
+obj1 = StudentDetails()
+print("----------------")
+obj1.display()
+obj1.updateNAme("John")
+print("----------------")
+obj1.display()
+"""
+Output With Parameters
+Enter ID = 1
+Enter Name = Ani
+Enter Age = 18
+Enter Gender = M
+----------------
+idd=1
+Name=Ani
+Age=18
+Gender=M
+Address=Surat
+----------------
+idd=1
+Name=John
+Age=18
+Gender=M
+Address=Surat
+"""
