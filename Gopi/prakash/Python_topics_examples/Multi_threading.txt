@@ -1,0 +1,19 @@
+MULTITHREADING 
+what is multi threading ?
+if you want to do multiple task in same time and same data we can used threading.
+ex:multiple tab ,process
+
+WHY WE USE THREADING:
+
+this method is a faster and more efficient way to create new threads.
+Parallel Computation: the thread can allow doing parallel processing with the goal of an increase in processing speed.
+standaration: it is become standaration apporach for all standaration .it is used for to increasing programming the speed
+
+consumaption:
+parallel i/O:
+
+t1.run():it is act as the entry of the thread.
+t1.start():it is used for starting the threading by calling the run().
+To start a process, we use start method of Process class.
+t1.join() method is tells to main wait for the excutaion process complete.
+Once the processes start, the current program also keeps on executing. In order to stop execution of current program until a process is complete, we use join method.
