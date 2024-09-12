@@ -18,5 +18,5 @@ my_dict = {
     100: 200,
     "name": "xyz",
 }
-print(my_dict)
-print(type(my_dict))  # {'name': 'xyz', 'age': 18, 'gender': 'male', 100: 200}
+print(my_dict)  # {'name': 'xyz', 'age': 18, 'gender': 'male', 100: 200}
+print(type(my_dict))  # <class 'dict'>
