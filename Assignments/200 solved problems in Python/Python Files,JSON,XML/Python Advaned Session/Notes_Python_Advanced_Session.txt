@@ -1,0 +1,41 @@
+File Operations
+
+open returs the filePointer
+File is basically a name to location in memory 
+
+Reading - open(fileName,"r")
+Writing = open(fileName, "w")
+Modifying - open(fileName, "a")
+with open (fileName,"r") as filePointer: - once we come out of this block file will be closed
+
+Methods:
+read(size) - to read the specified size of data from the file 
+seek(offset, from) - move the cursor to the specified position
+	from 0 - Beginning 1 - current cursor position 2 - End of file 
+tell() - returns the current cursor position
+readline - returns a line from a file
+close() - closes the file
+
+
+JSON:
+Prerequisite : Intro to JSON 
+name : value pair,
+Comparison between JSON and Python data type 
+Reading a JSON File - load the JSON file to python data
+Writing a JSON File - dump the python data to JSON File 
+Modifying a JSON File - load the JSON File, make the changes and dump the data 
+
+XML:
+Introduction to XML
+XML - tree based data structure 
+root - node - childnodes
+each node may/may not have attribute
+
+We will be using element Tree module to parse a XML File 
+
+Reading an XML : parse(<xmlFilenmae>)
+Writing a XML : tree.write(<xmlFileName>)
+Modifying a XML : Make the changes and write the data to xmlFile
+
+
+Kindly refer the examples

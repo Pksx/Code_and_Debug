@@ -29,16 +29,32 @@
 # obj.greet()
 
 
-def nums():
-    yield 1
+# def nums():
+#     yield 1
 
-    yield 2
-    yield 3
+#     yield 2
+#     yield 3
 
 
-generator = nums()
-next(generator, None)  # 1
-next(generator, None)  # 2
-next(generator, None)  # 3
-next(generator, None)  # None
-next(generator, None)
+# generator = nums()
+# next(generator, None)  # 1
+# next(generator, None)  # 2
+# next(generator, None)  # 3
+# next(generator, None)  # None
+# next(generator, None)
+
+
+class Base:
+    d = 10
+
+    def __init__(self):
+        self._a = 2
+        self.b = 5
+
+
+obj = Base()
+print(obj._a)
+# print(obj.b)
+# print(obj.d)
+
+# print(Base.__a)
